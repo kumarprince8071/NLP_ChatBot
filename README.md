@@ -1,2 +1,5 @@
 # NLP_ChatBot
-This project is related to build a chatbot for ease of people in order to chat with a restaurent bot instead of visiting the restaurent.....
+People usually face issues related to their order after placing it . They again need to visit the restaurant to cancel the order or payment related issues also if a person wants to checks the menu items they need to visit the restaurant which is time consuming in today’s busy world. That will affect the restaurant business because it is more likely that most people will not visit the restaurant due to less time.
+
+At first we build  a simple chatbot using Machine Learning but the evaluation metrics like Roc-auc-curve and also the confusion matrix are not up to mark(more misclassified points) .So ,We used Deep Learning Methods and build the Neural Network Layers using the SGD ( Stochastic Gradient Descent) Optimizer  with Nestrov Momentum with some Learning Rate and also used Relu as Activation Function so that we lose minimum information during training , Then we choose Categorical Cross Entropy to calculate Loss Function and for Evaluation Purpose we used Accuracy Metric . Lastly We finalized this model and because it was giving the good outcomes and then Deployed it Using Flask.
+
